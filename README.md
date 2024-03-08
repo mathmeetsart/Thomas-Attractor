@@ -1,4 +1,4 @@
-# Thomas Attractor (WORK IN PROGRESS)
+# Thomas Attractor
 
 Welcome to the Thomas Attractor repository! Explore the mesmerizing world of chaotic systems and artistic visualization.
 <br/><br/>
