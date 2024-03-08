@@ -1,46 +1,71 @@
 # Thomas Attractor (WORK IN PROGRESS)
 
 Welcome to the Thomas Attractor repository! Explore the mesmerizing world of chaotic systems and artistic visualization.
+<br/><br/>
 
 ## Description
 
 The Thomas Attractor is a strange attractor that arises in the study of nonlinear dynamics. It is a system of three coupled nonlinear ordinary differential equations that exhibits chaotic behavior. Named after René Thom, the Thomas Attractor showcases complex trajectories and chaotic motion.
 
 For more information, you can refer to the [Wikipedia page](https://en.wikipedia.org/wiki/Thomas%27_cyclically_symmetric_attractor).
+<br/><br/>
 
 ## Visual Appeal and Artistic Representation
 
 Similar to the Lorenz Attractor, the Thomas Attractor features intricate patterns and unpredictable trajectories that make it visually captivating. Artists and mathematicians alike are drawn to its chaotic nature, using it as inspiration for various forms of artistic expression, including digital art and sculptures.
+<br/><br/>
 
 ## Applications
 
 Beyond its aesthetic appeal, the Thomas Attractor has practical applications in various fields, including physics, engineering, and biology. Its chaotic behavior makes it valuable for studying complex systems and phenomena.
+<br/><br/>
 
 ## Code
 
-Explore the code used to generate visualizations of the Thomas Attractor. The code is written in Python and utilizes libraries such as matplotlib and numpy.
+Explore the code used to generate visualizations of the Thomas Attractor. The code is written in Python and utilizes libraries such as matplotlib and # Thom's Attractor Visualization
 
-### Additional Requirements
+### Requirements
 
-To run the code and create your own visualizations, you will need:
+- Python 3.12
+- Matplotlib
+- NumPy
 
-- Python (version X.X.X)
-- Required libraries (e.g., matplotlib, numpy)
+### Usage
 
-### Installation Instructions
+1. Clone this repository or download the `thom_attractor_image.py` file.
+2. Make sure you have Python and the required dependencies installed.
+3. Open a terminal or command prompt.
+4. Navigate to the directory containing `thom_attractor_image.py`.
+5. Run the script using the following command:
 
-1. Install Python from [python.org](https://www.python.org/downloads/).
-2. Install required libraries using pip:
+    ```bash
+    python thom_attractor_image.py
     ```
-    pip install matplotlib numpy
-    ```
 
-### Documentation
+6. The script will generate a plot of Thom's Attractor and display it in a new window.
 
-The code is thoroughly documented to help you understand and modify it as needed. Each function and variable is explained to facilitate ease of use and customization.
+### Customization
+
+You can customize the behavior and appearance of the plot by modifying the parameters in the script:
+
+- `b`: The parameter controlling the behavior of the attractor.
+- `start_position`: The initial position of the attractor in 3D space.
+- `num_steps`: The number of steps to compute.
+- `dt`: The time step for each iteration.
+- `elevation`: Set your desired elevation angle for viewing the plot.
+- `azimuth`: Set your desired azimuth angle for viewing the plot.
+- `roll`: Set your desired roll angle for viewing the plot.
+
+### Saving the Plot
+
+You can save the plot as an image file by uncommenting the following line in the script:
+
+```python
+# plt.savefig("thom_attractor.png", dpi=1200)  # Save the plot as a PNG file with high resolution## Sample Images
+```
+<br/><br/>
 
 ## Sample Images
-
 Below are some sample images generated using the code in this repository:
 
 1. ![Image 1](image1.png)
@@ -48,6 +73,7 @@ Below are some sample images generated using the code in this repository:
 3. ![Image 3](image3.png)
 
 Explore the code, create your own visualizations, and let the beauty of the Thomas Attractor inspire your artistic endeavors!
+<br/><br/>
 
 ## Contribution Guidelines
 
@@ -57,6 +83,7 @@ Contributions to this project are welcome! If you would like to contribute, plea
 - Make your changes
 - Test your changes thoroughly
 - Submit a pull request
+<br/><br/>
 
 ## Contact Information
 
