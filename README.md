@@ -68,7 +68,7 @@ You can save the plot as an image file by uncommenting the following line in the
 ## Sample Images
 Below are some sample images generated using the code in this repository:
 
-<img src="https://github.com/mathmeetsart/Thomas-Attractor/assets/157393083/19e1dd3c-9f19-46a6-b711-7cf2fc2490a1" width="600" height="400">
+<img src="https://github.com/mathmeetsart/Thomas-Attractor/assets/157393083/19e1dd3c-9f19-46a6-b711-7cf2fc2490a1" width="600" height="470">
 <br/><br/>
 
 Explore the code, create your own visualizations, and let the beauty of the Thomas Attractor inspire your artistic endeavors!
